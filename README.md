@@ -1,2 +1,4 @@
-# ML_Classified-iris-plants_Python-
-Binary Classification of iris plants with Neural Networks, Decision Trees, Naïve Bayes and Logistic Regression.
+# ML_Classified.iris.plants_Pythonbased on four plant attribution
+
+*	ML models: Neural Networks, Decision Trees, Naïve Bayes and Logistic Regression.
+*	Software: Python-Spyder
