@@ -8,16 +8,6 @@ sys.path
 import numpy as np
 import torch as tc
 
-
-
-pip install torch
-!pip install torch torchvision
-x = tc.rand(5, 3)
-print(x)
-
-!pip3 uninstall -y torch torchvision
-!pip3 install torch torchvision
-
 class StatisticClassifier:
     def __init__(self, name):
         self.name = name
@@ -85,7 +75,3 @@ class GradientClassifier(tc.nn.Module):
                 batch = tc.tensor(X[idx * batch_size: (idx + 1) * batch_size])
                 y_hat.append(self(batch.to(self._device)).cpu().squeeze().numpy())
         return np.hstack(y_hat)
-    
-    
-    Y= {1,2,3}
-    Y.shape
